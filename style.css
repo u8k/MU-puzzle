@@ -1,0 +1,73 @@
+body {
+  background: grey;
+  margin: 2vh;
+}
+#main {
+  text-align: center;
+  background: gainsboro;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+#display-string {
+  font-size: 3em;
+  margin-bottom: 16px;
+  overflow-wrap: break-word;
+}
+
+u {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+button {
+  font-size: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+
+arrow {
+  cursor: pointer;
+  font-size: 3.5em;
+  user-select: none;
+}
+
+#stepBack {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+
+#prose {
+  margin-top: 20px;
+  padding: 4vw;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  button {
+    font-size: 2.6em;
+  }
+  #stepBack {
+    font-size: 2.2em;
+  }
+  #display-string {
+    font-size: 4em;
+  }
+  #rule3and4splain {
+    font-size: 1.6em;
+  }
+  body {
+    margin: 0;
+  }
+  arrow {
+    font-size: 4.5em;
+  }
+}
